@@ -85,7 +85,7 @@ describe('lowPopulationAnimals', ()=>{
 });
 
 describe('USApop', ()=>{
-    it('USApop returns an array', ()=>{
+    it('USApop returns a number', ()=>{
         expect(functions.USApop(zooAnimals)).toEqual(56);
     })
 });
@@ -184,3 +184,20 @@ describe('Instance of CuboidMakerTwo', () => {
         expect(sur).toBe(130)
       })
   })
+
+// describe('Instance of CubeMaker', () => {
+//   const fifteenCube = new functions.CubeMaker(15);
+//   const sixtyNineCube = new functions.CubeMaker(69);
+//   it('[1] initializes with equal sides', () => {
+//     expect(fifteenCube.length === fifteenCube.height && fifteenCube.height === fifteenCube.width).toBe(true);
+//     expect(sixtyNineCube.length === sixtyNineCube.height && sixtyNineCube.height === sixtyNineCube.width).toBe(true);
+//   });
+//   it('[2] has the correct volume', () => {
+//     expect(fifteenCube.volume()).toBe(3375);
+//     expect(sixtyNineCube.volume()).toBe(328509);
+//   });
+//   it('[3] has the correct surfaceArea', () => {
+//     expect(fifteenCube.surfaceArea()).toBe(1350);
+//     expect(sixtyNineCube.surfaceArea()).toBe(28566);
+//   });
+// });
